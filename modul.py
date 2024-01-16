@@ -1,4 +1,3 @@
-s = ["ALi", "john", "Akbar"]
 
 name: list = []
 
