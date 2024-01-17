@@ -1,11 +1,12 @@
-from modul import topic, User
+import modul as B9
 
 student = ["Alice", "Bob", "Charlie", "Anjela", "Akbar"]
 
-s = topic(student)
+s = B9.topic(student)
 print(s)
 
-a = User
-print(a.values())
-print(a.keys())
-print(type(a))
+a = B9.User
+# print(a.values())
+# print(a.keys())
+# print(type(a))
+print(dir(B9))
