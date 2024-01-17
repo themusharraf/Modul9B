@@ -1,3 +1,5 @@
+from pprint import pprint
+
 import modul as B9
 
 student = ["Alice", "Bob", "Charlie", "Anjela", "Akbar"]
@@ -9,4 +11,6 @@ a = B9.User
 # print(a.values())
 # print(a.keys())
 # print(type(a))
-print(dir(B9))
+
+
+pprint(dir(B9))
