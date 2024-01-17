@@ -12,5 +12,17 @@ a = B9.User
 # print(a.keys())
 # print(type(a))
 
+# pprint(dir(B9))
 
-pprint(dir(B9))
+
+"""
+1.data.py create modul 
+    Dataclass User create ->: name,username,email,password,role
+    objects 5
+2.staff.py create modul
+    data modul  ->: name,username,email,password,role
+    
+3.data.py Dataclass User  ->: password hashing 
+
+"""
+
